@@ -1,0 +1,373 @@
+padding-top: 30px;
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	color: #2d3950;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+/*header section*/
+
+
+
+
+.header_section{
+	background: #fff;
+}
+.logo{
+	width: 20%;
+	float: left;}
+.logo img{
+	padding: 15%;
+}
+
+nav{
+	float: right;
+}
+nav ul{
+	text-align: right;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+}
+nav ul li a{
+    display: inline-block;
+    text-decoration:none;
+    font-size: 20px;
+    padding: 5px 20px;
+    color:#60646b;
+    
+}
+nav ul li:hover{
+	display:block;
+    padding:10px 10px;
+    border-radius: 20px;
+    background-color: darkorange;
+    display: block;
+    color:#edeff1;
+}
+
+
+
+/*banner section*/
+
+
+
+.banner_section{
+	/*height: 1310px;*/
+	width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(../images/banner.png);
+    background-size: 100%	
+}
+.banner{
+	text-align: center;
+}
+.content{
+	padding-top: 260px;
+}
+.content h1{
+	font-weight: 100;
+	font-size: 50px;
+	color: #fff;
+}
+.content p{
+	font-size: 25px;
+	margin-top: -30px;
+	color: #fff;
+}
+
+
+.iicon{
+	float: left;
+	text-align: center;
+	width: 33.33%
+}
+.icon{}
+.icon img{
+	border: 5px solid #fff;
+    border-radius: 50%;
+}
+.iicon h2{
+	color: #fff;
+}
+.iicon p{
+	line-height: 25px;
+	color: #fff;
+}
+
+
+.baton{
+	text-align: center;
+	padding: 35px 0;
+}
+.baton button{
+    color: #612316;
+    background: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 0px 50px;}
+.baton button:hover{
+	cursor: pointer;
+	color: #fff;
+	background: #DD4B2B;
+}
+.baton button p{
+	font-size: 20px;
+}
+
+
+
+/*news section*/
+
+
+
+
+.news{
+	padding: 60px;
+	background: #EDEFF1;
+}
+.head{
+	text-align: center;
+	padding-top: 10px;
+}
+.head h2{
+	padding-bottom:60px;
+	font-size:30px;
+}
+
+.new{
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+.new h2{
+	font-size: 24px;
+}
+.new p{
+	line-height: 25px;
+	font-size: 15px
+}
+.baner{}
+.baner img{}
+
+
+
+
+/*newsletter section*/
+
+
+.letter_section{
+	background-size: cover;
+    background: url(../images/banner2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.letter{}
+.letter h1{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+.letter p{
+    padding-left: 28%;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    padding-right: 28%;
+}
+.singin{
+    padding-bottom: 3%;
+    padding-top: 3%;	
+}
+
+.singin form{
+	padding-left: 30%;
+}
+.singin form input{
+    padding: 12px 100px;
+    background: #9292924f;
+    float: left;
+    border-radius: 26px;
+    width: 20%;
+    border: 2px solid #fff;
+    }
+
+.batonn{
+}
+.batonn button{
+	margin-left: -50px;
+    color: #612316;
+    background: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 2px 35px;
+}
+
+.batonn button:hover{
+	cursor: pointer;
+	color: #fff;
+	background: #DD4B2B;
+}
+}
+.batonn button p{
+	font-size: 20px;
+}
+
+
+
+/*about section*/
+
+
+.about1_section{
+	padding: 50px;
+	background:#fff;
+}
+.about1{
+    text-align: center;
+    float: left;
+}
+.pasag1{
+    width: 50%;
+    float: left;
+}
+
+.pasag1 h2{
+	font-size: 30px;
+
+}
+
+.pasag1 p{
+	font-size: 15px;
+	line-height: 25px
+}
+
+.img1{}
+.img1 img{
+    width: 50%;
+    float: left;
+}
+
+
+
+
+
+.about2_section{
+	padding: 50px;
+	background:#fff;
+}
+.about2{
+    text-align: center;
+    float: left;
+}
+.pasag2{
+    width: 50%;
+    float: left;
+}
+
+.pasag2 h2{
+	font-size: 30px;
+
+}
+
+.pasag2 p{
+	font-size: 15px;
+	line-height: 25px
+}
+
+.img2{}
+.img2 img{
+    width: 50%;
+    float: left;
+}
+
+.batt{
+}
+.batt button{
+	margin-left: -50px;
+    color: #612316;
+    background: #DD4B2B;
+    border: none;
+    border-radius: 50px;
+    padding: 2px 35px;
+}
+
+.batt button:hover{
+	cursor: pointer;
+	color: #fff;
+	background: #4B4E73;
+}
+}
+.batt button p{
+	font-size: 20px;
+}
+
+.battt{
+}
+.battt button{
+	margin-left: -50px;
+    color: #612316;
+    background: #DD4B2B;
+    border: none;
+    border-radius: 50px;
+    padding: 2px 35px;
+}
+
+.battt button:hover{
+	cursor: pointer;
+	color: #fff;
+	background: #4B4E73;
+}
+}
+.battt button p{
+	font-size: 20px;
+}
+
+
+/*about section*/
+
+
+
+
+.contact_section{
+	padding: 40px;
+	background: #D75D0E;
+}
+.con{
+    width: 33.33%;
+    text-align: center;
+    float: left;
+}
+.con p{
+	line-height: 35px;
+}
+footer{
+    padding-bottom: 60px;
+    padding-top: 60px;
+	background-size: cover;
+    background: url(../images/banner3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.food{
+	text-align: center;
+}
+.food p{
+	color: #fff;
+}
